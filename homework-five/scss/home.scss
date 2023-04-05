@@ -1,0 +1,129 @@
+.wrapper {
+    height: 180%;
+    width: 100%;
+    padding: 30px;
+}
+
+h1 {
+    margin-top: 140px;
+    margin-left: 120px;
+
+    text-transform: uppercase;
+    font-size: 60px;
+
+    font-family: "proxima-nova-extra-condensed";
+}
+.line {
+    margin-left: 120px;
+    margin-top: -40px;
+}
+
+p {
+    font-family: "gill-sans-nova";
+    font-size: 16px;
+    width: 980px;
+    height: 96px;
+    margin-left: 120px;
+    margin-top: 30px;
+    padding-bottom: 160px;
+}
+
+.title-quotes {
+    h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: "proxima-nova-extra-condensed";
+    margin-left: 120px;
+    margin-bottom: -20px;
+    }
+}
+.line2 {
+    margin-left: 120px;
+    
+    margin-bottom: 10px;
+    
+}
+.aboutPerson {
+    width: 676px;
+    min-height: 150px;
+    // background-color: aquamarine;
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+
+    margin-left: 120px;
+
+
+
+    .personImage {
+        width: 260px;
+        height: 150px;
+        background-image: url(/images/about\ client\ 01.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        // margin-right: 21px;
+    }
+
+    .aboutQuote {
+        p {
+            width: 385px;
+            height: 102px;
+            margin-left: 10px;
+        }
+    }
+
+    .author {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        color: #79addc;
+    }
+}
+
+.aboutPerson-2 {
+    width: 676px;
+    min-height: 150px;
+    // background-color: aquamarine;
+    display: flex;
+    position: relative;
+    margin-left: 120px;
+
+
+
+
+    .personImage-2 {
+        width: 260px;
+        height: 150px;
+        background-image: url(/images/about-client-02.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        // margin-right: 21px;
+    }
+
+    .aboutQuote-2 {
+        p {
+            width: 385px;
+            height: 102px;
+            margin-left: 10px;
+        }
+    }
+
+    .author-2 {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        color: #79addc;
+
+    }
+
+}
+
+@media only screen and (max-width: 676px) {
+
+    .aboutPerson,
+    .aboutPerson-2 {
+        display: block;
+    }
+}

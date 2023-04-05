@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.wrapper {
+  height: 180%;
+  width: 100%;
+  padding: 30px;
+}
+
+h1 {
+  margin-top: 140px;
+  margin-left: 120px;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-family: "proxima-nova-extra-condensed";
+}
+
+.line {
+  margin-left: 120px;
+  margin-top: -40px;
+}
+
+p {
+  font-family: "gill-sans-nova";
+  font-size: 16px;
+  width: 980px;
+  height: 96px;
+  margin-left: 120px;
+  margin-top: 30px;
+  padding-bottom: 160px;
+}
+
+.title-quotes h2 {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "proxima-nova-extra-condensed";
+  margin-left: 120px;
+  margin-bottom: -20px;
+}
+
+.line2 {
+  margin-left: 120px;
+  margin-bottom: 10px;
+}
+
+.aboutPerson {
+  width: 676px;
+  min-height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-bottom: 20px;
+  margin-left: 120px;
+}
+.aboutPerson .personImage {
+  width: 260px;
+  height: 150px;
+  background-image: url(/images/about\ client\ 01.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.aboutPerson .aboutQuote p {
+  width: 385px;
+  height: 102px;
+  margin-left: 10px;
+}
+.aboutPerson .author {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #79addc;
+}
+
+.aboutPerson-2 {
+  width: 676px;
+  min-height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-left: 120px;
+}
+.aboutPerson-2 .personImage-2 {
+  width: 260px;
+  height: 150px;
+  background-image: url(/images/about-client-02.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.aboutPerson-2 .aboutQuote-2 p {
+  width: 385px;
+  height: 102px;
+  margin-left: 10px;
+}
+.aboutPerson-2 .author-2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #79addc;
+}
+
+@media only screen and (max-width: 676px) {
+  .aboutPerson,
+.aboutPerson-2 {
+    display: block;
+  }
+}
+nav {
+  position: fixed;
+  height: 80px;
+  width: 80%;
+  background-color: rgba(136, 136, 136, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: solid 2px #000;
+}
+nav .logo {
+  height: 42px;
+  width: 132px;
+}
+nav .logo span {
+  font-size: 20px;
+  font-weight: 800;
+  color: #000;
+  border: solid 2px #000;
+  padding-top: 4px;
+  text-align: center;
+  font-family: "gill-sans-nova";
+}
+nav .logo p {
+  display: inline;
+  font-weight: 800;
+  font-size: 20px;
+  font-family: "gill-sans-nova";
+  color: #000;
+  margin-left: -8px;
+}
+nav .links {
+  padding: 8px;
+  margin: 13px;
+  word-spacing: 13px;
+}
+nav .links a {
+  text-decoration: none;
+  color: #000;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: "gill-sans-nova";
+  font-size: 15px;
+}
+
+@media screen and (max-width: 820px) {
+  nav .links {
+    max-width: 240px;
+    word-spacing: 13px;
+    text-align: center;
+  }
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 92px;
+  background-color: #79ADDC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer .logo {
+  height: 42px;
+  width: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer .logo span {
+  font-size: 20px;
+  font-weight: 800;
+  color: #fff;
+  border: solid 2px #fff;
+  margin-left: 120px;
+  font-family: "gill-sans-nova";
+  text-align: center;
+}
+.footer .logo h3 {
+  font-family: "gill-sans-nova";
+  font-size: 20px;
+  font-weight: 800;
+  color: #fff;
+  margin-top: 15px;
+}
+.footer .rights p {
+  text-align: center;
+  font-family: "gill-sans-nova";
+  color: #fff;
+  padding-top: 125px;
+}
+.footer .social {
+  width: 250px;
+  height: 23px;
+}
+.footer .social img {
+  display: inline-block;
+}
